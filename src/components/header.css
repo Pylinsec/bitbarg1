@@ -1,0 +1,34 @@
+.main_navbar {
+  width: 100%;
+  height: 66px;
+  text-align: right;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  /* margin: 0px 10px; */
+  background-color: burlywood;
+  font-family: IRANSans, "sans-serif";
+}
+.main-navbar_container {
+  width: 100%;
+  height: 100%;
+}
+.btn_login {
+  width: 64.8px;
+  height: 36px;
+  background: #2585ff;
+  border-color: #2585ff;
+  font-size: 12px;
+  /* padding: 7px 21px; */
+  margin: 0 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.js-fade-text1 {
+  font-weight: 400;
+  color: #fff;
+  padding: 0px;
+  font-family: IRANSansWeb, "sans-serif";
+  font-size: 14px;
+}
