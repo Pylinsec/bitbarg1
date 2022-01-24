@@ -7,12 +7,15 @@
   align-items: center;
   justify-content: end;
   /* margin: 0px 10px; */
-  background-color: burlywood;
+  /* background-color: burlywood; */
   font-family: IRANSans, "sans-serif";
 }
 .main-navbar_container {
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
 }
 .btn_login {
   width: 64.8px;
@@ -24,6 +27,7 @@
   margin: 0 10px;
   border-radius: 5px;
   border: 1px solid;
+  order: 1;
 }
 .js-fade-text1 {
   font-weight: 400;
@@ -31,4 +35,7 @@
   padding: 0px;
   font-family: IRANSansWeb, "sans-serif";
   font-size: 14px;
+}
+.service-button {
+  margin: 4.2px 11px 0px 0px;
 }

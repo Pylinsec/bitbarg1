@@ -1,4 +1,5 @@
 import "./header.css";
+import menu from "./../assets/svg/menu.svg";
 function Header1() {
   return (
     <div className="main_navbar">
@@ -12,7 +13,7 @@ function Header1() {
           <div className="js-fade-text1">ثبت نام</div>
         </button>
         <div className="service-button">
-          {/* <svg id="toggle-nav" className="toggle-nav"></svg> */}
+          <img src={menu} width="28" height="26" />
         </div>
       </div>
     </div>
