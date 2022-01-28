@@ -1,6 +1,8 @@
 import "./App.css";
 import Header1 from "./components/header";
 import Main1 from "./components/main1";
+import { Routes, Route, Link } from "react-router-dom";
+import Data1 from "./components/dataexchange/data.js";
 
 function App() {
   return (

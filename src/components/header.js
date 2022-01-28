@@ -5,10 +5,7 @@ function Header1() {
     <div className="main_navbar">
       <div className="service_dialog"></div>
       <div className="main-navbar_container">
-        <button
-          href="https://bitbbuttonrg.me/users/login"
-          className="btn_login"
-        >
+        <button href="" className="btn_login">
           {/* <div className="js-fade-text">ورود</div> */}
           <div className="js-fade-text1">ثبت نام</div>
         </button>

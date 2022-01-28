@@ -2,14 +2,15 @@ import "./main1.css";
 import bitbarglogo from "./../assets/svg/bitbarglogo.svg";
 import call from "./../assets/svg/call.svg";
 import favpng from "./../assets/png/favpng.png";
+import BTC from "./../assets/png/BTC.png";
+// import Data from "./dataexchange/data";
+// import { Link } from "react-router-dom";
 function Main1() {
   return (
-    <div className="main_contianer">
+    <div className="main_contianer1">
       <div className="main_logo">
-        <div class="logo">
+        <div className="bitbarg_logo">
           <img
-            width="200"
-            height="77"
             className="img-logo"
             title="بیت برگ"
             alt="بیت برگ"
@@ -21,38 +22,31 @@ function Main1() {
       <div className="main_row_section">
         <div className="main_row_section1">
           <div class="row_section1">
-            <div className="text-field--group">
-              <input
-                type="text"
-                onclick=""
-                id="price"
-                className="row_section1_input_ui"
-              />
-              <label className="main_label1">تومان</label>
+            <div className="text-field-group">
+              <input type="text" className="row_section1_input_ui" />
+              <div className="main_label1">تومان</div>
             </div>
           </div>
           <div class="row_section1">
-            <div className="text-field--group">
-              <input
-                type="number"
-                onclick=""
-                id="unit"
-                value="1"
-                className="row_section1_input_ui"
-              />
-              <label className="main_label2">واحد</label>
+            <div className="text-field-group">
+              <input type="number" className="row_section1_input_ui" />
+              <div className="main_label1">واحد</div>
             </div>
           </div>
           <div className="row_section1">
-            <div className="text-field--group">
-              <input
-                type="number"
-                onclick=""
-                id="unit"
-                value="1"
-                className="row_section1_input_ui"
-              />
-              <label className="main_label3">انتخاب ارز</label>
+            <div className="text-field-group">
+              <a
+                href="/dataexchange/data.js"
+                target="_blank"
+                className="row_section1_button_ui"
+              >
+                <span id="update-icon">
+                  <img src={BTC} width="20" height="20" alt="BTC" />
+                </span>
+                <span class="dropdown-toggle">بیت کوین </span>
+              </a>
+
+              <label className="main_label1">انتخاب ارز</label>
             </div>
           </div>
         </div>
