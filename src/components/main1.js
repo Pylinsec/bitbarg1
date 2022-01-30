@@ -3,9 +3,10 @@ import bitbarglogo from "./../assets/svg/bitbarglogo.svg";
 import call from "./../assets/svg/call.svg";
 import favpng from "./../assets/png/favpng.png";
 import BTC from "./../assets/png/BTC.png";
-// import Data from "./dataexchange/data";
-// import { Link } from "react-router-dom";
+import { useState } from "react";
+import Modal2 from "./modal/modal2";
 function Main1() {
+  const [openModal2, setOpenModal2] = useState(false);
   return (
     <div className="main_contianer1">
       <div className="main_logo">
@@ -35,16 +36,16 @@ function Main1() {
           </div>
           <div className="row_section1">
             <div className="text-field-group">
-              <a
-                href="/dataexchange/data.js"
-                target="_blank"
+              <button
+                onClick={() => setOpenModal2((prevstate) => !prevstate)}
                 className="row_section1_button_ui"
               >
                 <span id="update-icon">
                   <img src={BTC} width="20" height="20" alt="BTC" />
                 </span>
                 <span class="dropdown-toggle">بیت کوین </span>
-              </a>
+              </button>
+              {openModal2 && <Modal2 closeModal={setOpenModal2} />}
 
               <label className="main_label1">انتخاب ارز</label>
             </div>

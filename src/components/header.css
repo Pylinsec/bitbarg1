@@ -38,4 +38,14 @@
 }
 .service-button {
   margin: 4.2px 11px 0px 0px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.service-button_img {
+}
+.header_modal {
+  /* margin-top: 50px; */
 }
