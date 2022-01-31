@@ -4,7 +4,7 @@
   right: 0;
   width: 100vw;
   height: 874px;
-  /* max-height: 456px; */
+  overflow: scroll;
   box-shadow: 0 2px 8px 0 rgb(0 0 0 / 20%);
   z-index: 100;
   transform: translate(0);
@@ -90,13 +90,14 @@
 }
 
 /* _____1000px_____ */
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 1000px) {
   .modal2_container {
     position: absolute;
-    top: 300px;
-    left: 0px;
-    margin-left: 240px;
+    /* top: 300px; */
+
+    /* margin-left: 500px; */
     width: 272.3px;
+    /* left: calc(100% + 5.6rem); */
     /* height: auto; */
     max-height: 456px;
     box-shadow: 0 2px 8px 0 rgb(0 0 0 / 20%);

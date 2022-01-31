@@ -1,9 +1,11 @@
 import "./header.css";
+import { Routes, Route, Link } from "react-router-dom";
 import menu from "./../assets/svg/menu.svg";
 import { useState } from "react";
 import Modal from "./modal/modal";
 function Header1() {
   const [openModal, setOpenModal] = useState(false);
+  const [change, setcChange] = useState(false);
   return (
     <div className="main_navbar">
       <div className="service_dialog"></div>

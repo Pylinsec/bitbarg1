@@ -16,6 +16,8 @@ import question from "./../../assets/modal1/question.png";
 import relationship from "./../../assets/modal1/relationship.png";
 import wage from "./../../assets/modal1/wage.png";
 import wallet from "./../../assets/modal1/wallet.png";
+import About from "../about/about";
+import { Route, Routes, Link } from "react-router-dom";
 
 function Modal() {
   return (
@@ -23,7 +25,9 @@ function Modal() {
       <div className="row1">
         {modal_json.map((item) => (
           <div className="col1">
-            <a className="modal_a" href={"#_self"}>
+            {console.log("abol")}
+            {console.log("abol", item.linkpage)}
+            <a className="modal_a" href={<Link to="../about/about"></Link>}>
               <img src={item.icon} className="bitbarg-services-bg-profile" />
               <div className="modal_service_title">{item.title}</div>
             </a>
@@ -48,6 +52,10 @@ var modal_json = [
   { icon: relationship, title: "ارتباط با مدیریت" },
   { icon: bag, title: "گزارش باگ" },
   { icon: opportunity, title: "فرصت های شغلی" },
-  { icon: about, title: "درباره ما" },
+  {
+    icon: about,
+    title: "درباره ما",
+    linkpage: "../about/about",
+  },
 ];
 export default Modal;

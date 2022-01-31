@@ -1,4 +1,5 @@
 import "./main1.css";
+import { Routes, Route, Link } from "react-router-dom";
 import bitbarglogo from "./../assets/svg/bitbarglogo.svg";
 import call from "./../assets/svg/call.svg";
 import favpng from "./../assets/png/favpng.png";
@@ -45,7 +46,9 @@ function Main1() {
                 </span>
                 <span class="dropdown-toggle">بیت کوین </span>
               </button>
-              {openModal2 && <Modal2 closeModal={setOpenModal2} />}
+              <div className="main1_modal_zindex">
+                {openModal2 && <Modal2 closeModal={setOpenModal2} />}
+              </div>
 
               <label className="main_label1">انتخاب ارز</label>
             </div>

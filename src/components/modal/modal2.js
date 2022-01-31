@@ -1,4 +1,5 @@
 import "./modal2.css";
+import { Routes, Route, Link } from "react-router-dom";
 import BTC from "./../../assets/png/BTC.png";
 import ETH from "./../../assets/png/ETH.png";
 import BUSD from "./../../assets/png/BUSD.png";
@@ -13,7 +14,7 @@ import close from "./../../assets/svg/close.svg";
 import search from "./../../assets/svg/search.svg";
 function Modal2({ closeModal }) {
   return (
-    <div onClick={() => closeModal(false)}>
+    <div>
       <div onClick={""} className="modal2_container">
         <div className="modal2_header">
           <div onClick={() => closeModal(false)} className="close_btn">
@@ -112,6 +113,132 @@ var modal2_json = [
     persianname: "یو اس دی کوین",
     englishname: "USD Coin - USDC",
     icon: USDC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
+    price: 9000000000,
+  },
+  {
+    persianname: "بیت کوین",
+    englishname: "Bitcoin - BTC",
+    icon: BTC,
     price: 9000000000,
   },
 ];
